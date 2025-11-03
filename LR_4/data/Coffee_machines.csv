@@ -1,0 +1,3 @@
+model, producer_id, type_id, coffee_type_id, power_type_id
+"YCM-D1200", "1", "1", "1", "1"
+"YCM-F1250", "2", "2", "2", "2"
