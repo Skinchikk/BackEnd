@@ -36,7 +36,7 @@ if(isset($_POST['name'])) {
         <div class="container">
             <h1>Content control system</h1>
             <h1>Add producer form</h1>
-            <nav class = "navbar-nav flex-row">
+            <nav class = "navbar-nav flex-row" id = "navbardiv">
                 <li><a class ="btn btn-secondary" id = "secbtn" href="CoffeeMachines-List.php">Coffee machines list</a></li>
                 <li><a class ="btn btn-secondary" id = "secbtn" href="AddCoffeeMachine.php">Add coffee machine</a></li>
                 <li><a class ="btn btn-secondary" id = "secbtn" href="Producers-List.php">Producers list</a></li>
