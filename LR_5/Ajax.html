@@ -1,0 +1,19 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <div id="dataContainer"></div>
+    </body>
+    <script>
+        let dataContainer=document.getElementById('dataContainer');
+        fetch('http://127.0.0.1/BE/LR_4/api/Producers-json.php')
+        .then((response) => response.json())
+        .then((data) => {
+            for (i=0; i<data.length; i++) {
+                dataContainer.innerHTML+=data[i]['id']+'. '+data[i]['name']+'</br>';
+            }
+        })
+        .catch(console.error);
+    </script>
+</html>
