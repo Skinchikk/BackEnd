@@ -44,7 +44,6 @@ if (isset($_GET['action']) && $_GET['action'] === 'delete') {
                 <li><a class ="btn btn-danger" id = "secbtn" href="logout.php">Log out</a></li>
 
             </nav>
-            <a class="btn btn-primary" href="AddCoffeeMachine.php">Add coffee machine</a>
             <div>
                 <form action="./searchResult.php" method="GET" class="d-flex my-3" role="search">
                     <input class="form-control me-2" type="search" name="query" placeholder="Search" aria-label="Search">
