@@ -1,0 +1,33 @@
+#cmb, #pb, #tb, #ctb, #ptb {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    height: fit-content;
+    width: fit-content;
+}
+
+#navbardiv {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+td a {
+    margin-right: 15px;
+    color: red;
+}
+
+#secbtn {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#cmrow, #prow, #trow, #ctrow, #ptrow {
+    display: none;
+}
+
+#mainnav {
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
